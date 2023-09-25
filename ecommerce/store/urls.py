@@ -9,4 +9,3 @@ urlpatterns = [
     path('search/<slug:category_slug>/', views.list_category, name='list_category'),
 ]
 
-
